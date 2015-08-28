@@ -40,6 +40,7 @@ class ProductsController < ApplicationController
   # PATCH/PUT /products/1
   # PATCH/PUT /products/1.json
   # 中文怎么样
+  #看看中文如何了
   def update
     respond_to do |format|
       if @product.update(product_params)
